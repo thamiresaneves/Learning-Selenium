@@ -8,7 +8,7 @@ public class LoginPage {
     private WebDriver driver;
     private By usernameField = By.id("username");
     private By passwordField = By.id(("password"));
-    private By loginbutton = By.cssSelector("#login button");
+    private By loginButton = By.cssSelector("#login button");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -23,7 +23,7 @@ public class LoginPage {
     }
 
     public SecureAreaPage clickLoginButton() {
-        driver.findElement(loginbutton).click();
+        driver.findElement(loginButton).click();
         return new SecureAreaPage(driver);
     }
 }
