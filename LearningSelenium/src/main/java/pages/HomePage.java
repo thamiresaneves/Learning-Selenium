@@ -26,6 +26,21 @@ public class HomePage {
         return new ForgotPasswordPage(driver);
     }
 
+    public HoversPage clickHovers() {
+        clickLink("Hovers");
+        return new HoversPage(driver);
+    }
+
+    public KeyPressesPage clickKeyPresses() {
+        clickLink("Key Presses");
+        return new KeyPressesPage(driver);
+    }
+
+    public HorizontalSlidersPage clickHorizontalSlides() {
+        clickLink("Horizontal Slider");
+        return new HorizontalSlidersPage(driver);
+    }
+
     private void clickLink(String linkText) {
         driver.findElement(By.linkText(linkText)).click();
     }
