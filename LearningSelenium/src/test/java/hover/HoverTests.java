@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class HoverTest extends BaseTests {
+public class HoverTests extends BaseTests {
 
     @Test
     public void testHoverUser1() {

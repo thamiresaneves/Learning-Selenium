@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.*;
 
-public class KeysTest extends BaseTests {
+public class KeysTests extends BaseTests {
 
     @Test
     public void testBackspace() {
