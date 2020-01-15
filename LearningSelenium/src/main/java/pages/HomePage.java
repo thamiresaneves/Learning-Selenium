@@ -61,6 +61,16 @@ public class HomePage {
         return new ContextMenuPage(driver);
     }
 
+    public WYSIWYGEditorPage clickWYSIWYGEditor() {
+        clickLink("WYSIWYG Editor");
+        return new WYSIWYGEditorPage(driver);
+    }
+
+    public FramesPage clickFrames() {
+        clickLink("Frames");
+        return new FramesPage(driver);
+    }
+
     private void clickLink(String linkText) {
         driver.findElement(By.linkText(linkText)).click();
     }
