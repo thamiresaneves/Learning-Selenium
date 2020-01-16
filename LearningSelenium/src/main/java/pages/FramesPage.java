@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class FramesPage {
 
-    WebDriver driver;
+    private WebDriver driver;
     private String leftArea = "/frame_left";
     private String bottomArea = "/frame_bottom";
 

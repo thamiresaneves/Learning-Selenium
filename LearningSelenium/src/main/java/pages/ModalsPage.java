@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ModalsPage {
 
-    WebDriver driver;
+    private WebDriver driver;
     private By modalTitle = By.className("modal-title");
     private By modalText = By.className("modal-body");
     private By closeButton = By.className("modal-footer");
