@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ContextMenuPage {
 
-    WebDriver driver;
+    private WebDriver driver;
     private By contextArea = By.id("hot-spot");
 
     public ContextMenuPage(WebDriver driver) {

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class WYSIWYGEditorPage {
 
-    WebDriver driver;
+    private WebDriver driver;
     private String iFrameId = "mce_0_ifr";
     private By textArea = By.id("tinymce");
     private By decreaseIndentButton = By.cssSelector("#mceu_12 button");
